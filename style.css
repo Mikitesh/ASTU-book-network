@@ -10,36 +10,36 @@ body{
 }
 
 @keyframes example {
-  0% { background-image: url(homebk.jpg);
+  0% { background-image: url(image/homebk.jpg);
        background-repeat: no-repeat;
 	    background-size: cover}
  15% {
-	background-image: url(bk2.jpg);
+	background-image: url(image/bk2.jpg);
 	background-repeat: no-repeat;
 	 background-size: cover}
  30% {
-	background-image: url(bk4.jpg);
+	background-image: url(image/bk4.jpg);
 	background-repeat: no-repeat;
     background-size: cover}
 		 
  45% {
-    background-image: url(bk5.jpg);
+    background-image: url(image/bk5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover}
 			 
  50% {
-	background-image: url(bk6.jpg);
+	background-image: url(image/bk6.jpg);
 	background-repeat: no-repeat;
 	background-size: cover}
  65% {
-	background-image: url(bk7.jpg);
+	background-image: url(image/bk7.jpg);
 	background-repeat: no-repeat;
 	 background-size: cover}
  80% {
-	background-image: url(bk3.jpg);
+	background-image: url(image/bk3.jpg);
 	background-repeat: no-repeat;
     background-size: cover}
-100% { background-image: url(homebk.jpg);
+100% { background-image: url(image/homebk.jpg);
 	   background-repeat: no-repeat;
 	   background-size: cover}
 }
@@ -182,7 +182,7 @@ body{
 	border:1px solid #017fb5;
 }
 .main .heading .btns .btn1{
-	background:#000000;
+	background:#080000;
 	border:1px solid #017fb5;
 }
 .main .heading .btns .btn1:hover{
