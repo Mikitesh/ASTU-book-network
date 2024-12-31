@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Activity</title>
+</head>
+<body>
+    <h1>Record User Activity</h1>
+    <form action="recordActivity" method="POST">
+        Username: <input type="text" name="username" required><br>
+        Action:
+        <select name="action">
+            <option value="like">Like</option>
+            <option value="comment">Comment</option>
+            <option value="post">Post</option>
+            <option value="online">Online</option>
+        </select><br>
+        <input type="submit" value="Record Activity">
+    </form>
+</body>
+</html>
