@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="4.0">
+    <servlet>
+        <servlet-name>ChatServlet</servlet-name>
+        <servlet-class>com.chatApp.Chat</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChatStartServlet</servlet-name>
+        <servlet-class>com.chatApp.ChatStart</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReloadDataServlet</servlet-name>
+        <servlet-class>com.chatApp.ReloadData</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ChatServlet</servlet-name>
+        <url-pattern>/startchat</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ChatStartServlet</servlet-name>
+        <url-pattern>/startchatting</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>ReloadDataServlet</servlet-name>
+        <url-pattern>/reload</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
