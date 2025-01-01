@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* General Reset and Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(to right, rgb(79, 172, 254), #00f2fe);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container input, 
+.container button {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.container input:focus {
+    border-color: #4facfe;
+    outline: none;
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+.container button {
+    background: #4facfe;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.container button:hover {
+    background: #00f2fe;
+    transform: scale(1.05);
+}
+
+/* Chat Window Styles */
+.chat-window {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.chat-window #chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f9f9f9;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.chat-window #chat-messages p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.chat-window #chat-messages strong {
+    color: #4facfe;
+}
+
+.chat-window input {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.chat-window input:focus {
+    border-color: #4facfe;
+    outline: none;
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+.chat-window button {
+    padding: 12px;
+    background: #4facfe;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.chat-window button:hover {
+    background: #00f2fe;
+    transform: scale(1.05);
+}
+
+.chat-window a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5f6d;
+    color: white;
+    font-size: 1em;
+    border-radius: 6px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.chat-window a:hover {
+    background: #ffc371;
+    transform: scale(1.05);
+}
+
+/* Logout Page Styles */
+.logout-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.logout-container h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.logout-container p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.logout-container a {
+    text-decoration: none;
+    padding: 12px 20px;
+    background: #4facfe;
+    color: white;
+    font-size: 1em;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.logout-container a:hover {
+    background: #00f2fe;
+    transform: scale(1.05);
+}
