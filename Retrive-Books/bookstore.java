@@ -28,7 +28,7 @@ public class bookstore {
                 int bookId = resultSet.getInt("BookID");
                 String title = resultSet.getString("Title");
                 String author = resultSet.getString("Author");
-                double price = resultSet.getDouble("Price");
+                
                 // int stock = resultSet.getInt("Stock");
 
                 System.out.printf("Book ID: %d, Title: %s, Author: %s, Price: %.2f, Stock: %d%n",
